@@ -1,0 +1,22 @@
+# config/config.yaml
+# Example configuration for MQTT broker and smart devices
+
+mqtt:
+  broker: tcp://localhost:1883
+  username: user
+  password: pass
+
+lights:
+  - id: "living-room"
+    type: "tasmota"
+    topic: "cmnd/livingroom/POWER"
+
+outlets:
+  - id: "tv-outlet"
+    type: "tasmota"
+    topic: "cmnd/tvoutlet/POWER"
+
+thermostats:
+  - id: "main"
+    type: "honeywell_t6"
+    address: "192.168.1.50"
