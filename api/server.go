@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/rs/zerolog/log"
-	"github.com/berryscottr/home-assistant-automation/devices"
+	"github.com/berryscottr/home-assistant/devices"
 )
 
 func StartServer(ctx context.Context) {
