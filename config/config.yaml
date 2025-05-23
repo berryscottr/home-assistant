@@ -17,6 +17,10 @@ outlets:
     topic: "cmnd/tvoutlet/POWER"
 
 thermostats:
-  - id: "main"
-    type: "honeywell_t6"
-    address: "192.168.1.50"
+  - id: "downstairs"
+    model: "honeywell_t5+"
+    mac_id: "5C:FC:E1:7C:24:06"
+
+  - id: "upstairs"
+    model: "honeywell_t5+"
+    mac_id: "5C:FC:E1:7C:21:0E"

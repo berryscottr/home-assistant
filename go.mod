@@ -2,7 +2,10 @@ module github.com/berryscottr/home-assistant
 
 go 1.24.2
 
-require github.com/rs/zerolog v1.34.0
+require (
+	github.com/rs/zerolog v1.34.0
+	gopkg.in/yaml.v2 v2.4.0
+)
 
 require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
